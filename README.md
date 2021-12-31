@@ -478,12 +478,22 @@ Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
 </html>
 
 
-
+```
 ## OUTPUT:
 
 ### Home Page:
 
-![output](./images/homepage.jpg)
+![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/home.PNG?raw=true)
+
+## Products
+![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/products.PNG?raw=true)
+
+## People
+![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/people.PNG?raw=true)
+
+## contact us
+![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/contact.PNG?raw=true)
+
 
 ## Result:
 
