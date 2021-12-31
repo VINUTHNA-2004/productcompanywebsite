@@ -35,6 +35,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+<<<<<<< HEAD
 Layot css
 ```
 * {
@@ -466,6 +467,11 @@ Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
 </html>
 ```
 
+=======
+```
+<html>
+</html>
+>>>>>>> 87094c9358ce5c51c24113f171c06936da920ec5
 
 ## OUTPUT:
 
