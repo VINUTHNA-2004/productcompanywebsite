@@ -471,7 +471,11 @@ Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
 ```
 <html>
 </html>
+<<<<<<< HEAD
 >>>>>>> 87094c9358ce5c51c24113f171c06936da920ec5
+=======
+```
+>>>>>>> 0c08796cb7fb505c0d63cca83d63d7b7a0879745
 
 ## OUTPUT:
 
