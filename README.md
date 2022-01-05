@@ -903,16 +903,7 @@ contact us
 
 ### Home Page:
 
-<<<<<<< HEAD
 ![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/home.PNG?raw=tru)
-## products
-![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/products.PNG?raw=true)
-## people
-![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/people.PNG?raw=true)
-## contact us
-![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/contact.PNG?raw=true)
-=======
-![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/home.PNG?raw=true)
 
 ## Products
 ![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/products.PNG?raw=true)
@@ -923,7 +914,7 @@ contact us
 ## contact us
 ![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/contact.PNG?raw=true)
 
->>>>>>> 92cee082ea923c00408d46e80673f41304f51bf3
+
 
 ## Result:
 
