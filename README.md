@@ -465,11 +465,9 @@ Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
 </body>
 </html>
 
-
 ## OUTPUT:
 
 ### Home Page:
-
 ![output](https://github.com/VINUTHNA-2004/productcompanywebsite/blob/main/home.PNG?raw=tru)
 
 ## Products
@@ -484,5 +482,4 @@ Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
 
 
 ## Result:
-
 Thus a website is designed for the software product company and the HTML,CSS code are validated.
