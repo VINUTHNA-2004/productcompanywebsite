@@ -662,13 +662,6 @@ home
     </div>
   </body>
 </html>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 87094c9358ce5c51c24113f171c06936da920ec5
-=======
-```
->>>>>>> 0c08796cb7fb505c0d63cca83d63d7b7a0879745
-=======
 
 products
 ```
@@ -904,7 +897,7 @@ contact us
     </div>
   </body>
 </html>
->>>>>>> 92cee082ea923c00408d46e80673f41304f51bf3
+
 
 ## OUTPUT:
 
