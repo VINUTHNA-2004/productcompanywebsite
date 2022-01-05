@@ -35,14 +35,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+layout,css M
 ```
-<html>
-</html>
-
-``
-Layot css
-```
-
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -66,7 +60,7 @@ body {
   height: 250px;
   text-align: center;
   font-size: 60px;
-  background-image: url("/static/img/x1.jpg");
+  background-image: url("/static/img/adobe.png");
   background-size: 100% 100%;
   margin: 0px 0px 0px 0px;
   padding-top: 150px;
@@ -181,14 +175,15 @@ body {
   color: #9c1018;
 }
 ```
-home
 ```
+home
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>Microsoft privated limited</title>
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+    <link rel="icon" href="./img/adobe.png" type="image/x-icon" />
   </head>
 
   <body>
@@ -197,13 +192,12 @@ home
       <div class="menu">
         <div class="menuitemselected"><a href="/static/home.html">Home</a></div>
         <div class="menuitem"><a href="/static/products.html">Products</a></div>
-        <div class="menuitem"><a>People</a></div>
-        <div class="menuitem"><a>Contact Us</a></div>
-      </div>
+        <div class="menuitem"><a href="/static/people.html">People</a></div>
+        <div class="menuitem"><a href="/static/contactus.html">Contact Us</a></div>
       <div class="content">
         <div class="homecontent">
           <h1>About Us</h1>
-          <img src="./img/x2.jpg" alt="Building" />
+          <img src="./img/logo.png" alt="Building" />
           <div class="contenttext">
             At Tally, we believe in the power of technology to make business
             owners efficient, empowered and happier, so they can focus on what
@@ -227,258 +221,247 @@ home
         </div>
       </div>
       <div class="footer">
-        Copyright &#169; 2021 EduSoft Private Limited, Developed by D.R.Vinuthna.
+        Copyright &#169; 2021 EduSoft Private Limited, Developed by D.R.Vinuthna
       </div>
     </div>
   </body>
 </html>
-```
+
 products
 ```
-!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<title></title>
-<link rel="stylesheet" href="./css/layout.css" />
-<link rel="icon" href="./img/icon.png" type="image/x-icon" />
-</head>
-<body>
-<div class="container">
-<div class="banner"></div>
-<div class="menu">
-<div class="menuitem"><a href="/static/home.html">Home</a></div>
-<div class="menuitemselected"><a href="/static/products.html">Products</a></div>
-<div class="menuitem"><a href="/static/people.html">People</a></div>
-<div class="menuitem"><a href="/static/contactus.html">Contact Us</a></div>
-</div>
-<div class="content">
-<div class="productcontent">
-<h1>Our Premium Products</h1>
-<div class="productitems">
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v1.jpg" alt="product image">
-</div>
-<div class="itemname">Microsoft</div>
-<div class="itemprice">Price: Rs.10,ooo </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v2.jpg" alt="product image">
-</div>
-<div class="itemname">Apps & Windows Store</div>
-<div class="itemprice">Price: Rs.4,500 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v3.png" alt="product image">
-</div>
-<div class="itemname">Word</div>
-<div class="itemprice">Price: Rs.5000 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v4.png" alt="product image">
-</div>
-<div class="itemname">Execel</div>
-<div class="itemprice">Price: Rs.5500 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v5.png" alt="product image">
-</div>
-<div class="itemname">Windows phone</div>
-<div class="itemprice">Price: Rs.6000 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v6.png" alt="product image">
-</div>
-<div class="itemname">Skype</div>
-<div class="itemprice">Price: Rs.6500</div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v7.png" alt="product image">
-</div>
-<div class="itemname">MSN</div>
-<div class="itemprice">Price: Rs.7000 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v8.png" alt="product image">
-</div>
-<div class="itemname">Xbox</div>
-<div class="itemprice">Price: Rs.7500 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v9.png" alt="product image">
-</div>
-<div class="itemname">Share point</div>
-<div class="itemprice">Price: Rs.8000 </div>
+  <head>
+    <title>Adobe Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner"></div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitemselected"><a href="/static/products.html">Products</a></div>
+        <div class="menuitem"><a href="/static/people.html">People</a></div>
+        <div class="menuitem"><a href="/static/contactus.html">Contact Us</a></div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>Our Premium Products</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/img/v1.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">microsoft</div>
+                  <div class="itemprice">Price: Rs.10000 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/img/v2.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">apps and windows store</div>
+                  <div class="itemprice">Price: Rs.4500 </div>
+              </div>
+              <div class="productitem"> 
+                <div class="itemimage">
+                <img src="/static/img/v3.png"  alt="product image">
+                </div>
+                <div class="itemname">word</div>
+                <div class="itemprice">Price: Rs.5000 </div>
+            </div>
+            <div class="productitem"> 
+              <div class="itemimage">
+              <img src="/static/img/v4.png"  alt="product image">
+              </div>
+              <div class="itemname">Execel</div>
+              <div class="itemprice">Price: Rs.5500 </div>
+          </div>
+          <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/v5.png"  alt="product image">
+            </div>
+            <div class="itemname">windows phone</div>
+            <div class="itemprice">Price: Rs.6000 </div>
+        </div>
+        <div class="productitem"> 
+          <div class="itemimage">
+          <img src="/static/img/v6.png"  alt="product image">
+          </div>
+          <div class="itemname">Skype</div>
+          <div class="itemprice">Price: Rs.6500</div>
+      </div>
+      <div class="productitem"> 
+        <div class="itemimage">
+        <img src="/static/img/v7.png"  alt="product image">
+        </div>
+        <div class="itemname">MSN</div>
+        <div class="itemprice">Price: Rs.7000 </div>
+    </div>
+    <div class="productitem"> 
+      <div class="itemimage">
+      <img src="/static/img/v8.png"  alt="product image">
+      </div>
+      <div class="itemname">Xbox</div>
+      <div class="itemprice">Price: Rs.7500</div>
+  </div>
+  <div class="productitem"> 
+    <div class="itemimage">
+    <img src="/static/img/v9.png"  alt="product image">
+    </div>
+    <div class="itemname">Share point</div>
+    <div class="itemprice">Price: Rs.8000 </div>
 </div>
 <div class="productitem"> 
-<div class="itemimage">
-<img src="/static/img/v10.png" alt="product image">
+  <div class="itemimage">
+  <img src="/static/img/v10.png"  alt="product image">
+  </div>
+  <div class="itemname">Access</div>
+  <div class="itemprice">Price: Rs.4000 </div>
 </div>
-<div class="itemname">Access</div>
-<div class="itemprice">Price:4000</div>
+<div class="productitem"> 
+  <div class="itemimage">
+  <img src="/static/img/v11.png"  alt="product image">
+  </div>
+  <div class="itemname">Onenote</div>
+  <div class="itemprice">Price: Rs.9,500 </div>
 </div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v11.png" alt="product image">
+<div class="productitem"> 
+  <div class="itemimage">
+  <img src="/static/img/v12.png"  alt="product image">
+  </div>
+  <div class="itemname">Lync</div>
+  <div class="itemprice">Price: Rs.10,000 </div>
 </div>
-<div class="itemname">OneNote</div>
-<div class="itemprice">Price: Rs.9500 </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/v12.png" alt="product image">
-</div>
-<div class="itemname">Lync</div>
-<div class="itemprice">Price: Rs.10,000 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="footer">
-Copyright &#169; 2021 EduSoft Private Limited, Developed by D.R.Vinuthna.
-</div>
-</div>
-</body>
+          </div>
+          </div>        
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 EduSoft Private Limited, Developed by D.R.Vinuthna
+      </div>
+    </div>
+  </body>
 </html>
-```
+
 people
-```
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>adobe </title>
-<link rel="stylesheet" href="./css/layout.css" />
-<link rel="icon" href="./img/ail.png" type="image/x-icon" />
-</head>
-<body>
-<div class="container">
-<div class="banner"></div>
-<div class="menu">
-<div class="menuitem"><a href="/static/home.html">Home</a></div>
-<div class="menuitem"><a href="/static/products.html">Products</a></div>
-<div class="menuitemselected"><a href="/static/people.html">People</a></div>
-<div class="menuitem"><a href="/static/contactus.html">Contact Us</a>
-</div>
-</div>
-<div class="content">
-<div class="homecontent">
-<h1>Our company employees:</h1><br><br>
-<div class="productitems">
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/d5.jpg" alt="product image">
-</div>
-<div class="itemname">Ian Joseph</div>
-<div class="itemprice">CEO </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/d6.jpg" alt="product image">
-</div>
-<div class="itemname">Paul</div>
-<div class="itemprice">DSM</div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/d2.jpg" alt="product image">
-</div>
-<div class="itemname">Louis patridge</div>
-<div class="itemprice">Assistant HR </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/d3.jpg" alt="product image">
-</div>
-<div class="itemname">Owen joyner</div>
-<div class="itemprice">HR </div>
-</div>
-<div class="productitem">
-<div class="itemimage">
-<img src="/static/img/d4.jpg" alt="product image">
-</div>
-<div class="itemname">Aidan</div>
-<div class="itemprice">RSM </div>
-</div> <div class="productitem">
-<div class="itemimage">
-<img src="/static/img/d1.jpg" alt="product image">
-</div>
-<div class="itemname">Thimotee</div>
-<div class="itemprice">senior manager</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="footer">
-Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
-</div>
-</div>
-contactus
-OUTPUT:
+  <head>
+    <title>microsoft</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/ail.png" type="image/x-icon" />
+    </head>
+    <body>
+    <div class="container">
+      <div class="banner"></div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitem"><a href="/static/products.html">Products</a></div>
+        <div class="menuitem"><a href="/static/people.html">People</a></div>
+        <div class="menuitemselected"><a href="/static/contactus.html">Contact Us</a></div>
+        </div>
+      <div class="content">
+        <div class="homecontent">
+          <h1>Our company employees:</h1><br><br>
+          <div class="productitems">
+            <div class="productitem"> 
+                <div class="itemimage">
+                <img src="/static/img/d5.jpg" alt="product image">
+                </div>
+                <div class="itemname">Ian Joseph</div>
+                <div class="itemprice">CEO </div>
+            </div>
+            <div class="productitem"> 
+                <div class="itemimage">
+                <img src="/static/img/d6.jpg"  alt="product image">
+                </div>
+                <div class="itemname">Paul</div>
+                <div class="itemprice">DSM</div>
+            </div>
+            <div class="productitem"> 
+              <div class="itemimage">
+              <img src="/static/img/d2.jpg"  alt="product image">
+              </div>
+              <div class="itemname">Louis patridge</div>
+              <div class="itemprice">Assistant HR </div>
+            </div>
+            <div class="productitem"> 
+              <div class="itemimage">
+              <img src="/static/img/d3.jpg"  alt="product image">
+              </div>
+              <div class="itemname">Owen joyner</div>
+              <div class="itemprice">HR </div>
+          </div>
+          <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/d4.jpg"  alt="product image">
+            </div>
+            <div class="itemname">Aidan</div>
+            <div class="itemprice">RSM </div>
+        </div>  <div class="productitem"> 
+          <div class="itemimage">
+          <img src="/static/img/d1.jpg"  alt="product image">
+          </div>
+          <div class="itemname">Thimotee</div>
+          <div class="itemprice">senior manager</div>
+      </div>
+          </div>
+        </div>
+        </div>        
+    </div>
+    <div class="footer">
+      Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna
+    </div>
+  </div>
 </body>
 </html>
+````
 ```
-contact  us
-```
+contact us
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Adobe</title>
-<link rel="stylesheet" href="./css/layout.css" />
-<link rel="icon" href="./img/ail.png" type="image/x-icon" />
-</head>
-<body>
-<div class="container">
-<div class="banner"></div>
-<div class="menu">
-<div class="menuitem"><a href="/static/home.html">Home</a></div>
-<div class="menuitem"><a href="/static/products.html">Products</a></div>
-<div class="menuitem"><a href="/static/people.html">People</a></div>
-<div class="menuitemselected"><a href="/static/contactus.html">Contact Us</a>
-</div>
-</div>
-<div class="content">
-<div class="homecontent">
-<h1>Contact Us:</h1><br><br>
-<h1>Address:</h1>
-<div class="contenttext">
-967/4 G.I.D.C., MAKARPURA, VADODARA 390010, GUJARAT, INDIA.
-</div><br>
-<h1>Phone:</h1><br>
-<div class="contenttext">
-Mr.Owen joyner(HR):123456789<br><br>
-Mr.Louis patridge(Assistant HR):987654321
-</div>
-<h1>E-Mail:</h1><br>
-<div class="contenttext">
-Sales:vinuthna2103@gmail.com
-</div>
-</div>
-</div>
-<div class="footer">
-Copyright &#169; 2021 Adobe Private Limited, Developed by D.R.Vinuthna.
-</div>
-</div>
-</body>
-</html>
-```
+  <head>
+    <title>Adobe</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/ail.png" type="image/x-icon" />
+  </head>
 
-=======
-```
-<html>
+  <body>
+    <div class="container">
+      <div class="banner"></div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitem"><a href="/static/products.html">Products</a></div>
+        <div class="menuitem"><a href="/static/people.html">People</a></div>
+        <div class="menuitemselected"><a href="/static/contactus.html">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="homecontent">
+          <h1>Contact Us:</h1><br><br>
+          <h1>Address:</h1>
+          <div class="contenttext">
+            28-44/231/v5,SRI NAGAR,MADANAPALLI,CHITTOR 
+          </div><br>
+          <h1>Phone:</h1><br>
+          <div class="contenttext">
+              Mr.Ian Joseph(HR):8234567890<br><br>
+              Mr.Louis patridge(Assistant HR):789898989
+          </div>
+          <h1>E-Mail:</h1><br>
+          <div class="contenttext">
+              Sales:vinuthna2103@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021  Adobe Private Limited, Developed by D.R.Vinuthna
+      </div>
+    </div>
+  </body>
 </html>
 
-
-```
 ## OUTPUT:
 
 ### Home Page:
